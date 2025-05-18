@@ -7,9 +7,12 @@ import { MicIcon, MoonIcon, SunIcon, UserCircleIcon, BellIcon, MenuIcon, SearchI
 import { useTheme } from 'next-themes'
 import { useCallback } from 'react'
 import Link from 'next/link'
+import { useContext } from 'react'
+import { SidebarContext } from '@/components/shared/sidebar-provider'
 
 export function Topbar() {
   const { resolvedTheme, setTheme } = useTheme()
+  const { toggleSidebar } = useContext(SidebarContext)
 
   const toggleTheme = useCallback(() => {
     setTheme(resolvedTheme === 'dark' ? 'light' : 'dark')
@@ -18,7 +21,7 @@ export function Topbar() {
   return (
     <div className="flex gap-2 items-center justify-between px-4 py-2 fixed top-0 left-0 right-0 z-50 bg-background min-h-16">
       <div className="flex gap-2 items-center w-fit">
-        <Button variant="ghost" size="icon">
+        <Button variant="ghost" size="icon" onClick={toggleSidebar}>
           <MenuIcon className="size-4" />
         </Button>
         <Link href="/">
