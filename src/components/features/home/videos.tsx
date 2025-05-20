@@ -3,7 +3,7 @@ import Thumbnail from './thumbnail'
 const VIDEOS = [
   {
     id: '1',
-    url: '/video/1',
+    url: '/videos/1',
     title: 'Forest Adventure 🌲 - Fantasy Music for Inspiration',
     image: '/placeholder.png',
     channel: 'Blue Turtle',
@@ -15,7 +15,7 @@ const VIDEOS = [
   },
   {
     id: '2',
-    url: '/video/2',
+    url: '/videos/2',
     title: 'Learn React in 30 Minutes - Beginner Friendly Tutorial',
     image: '/placeholder.png',
     channel: 'Code Masters',
@@ -27,7 +27,7 @@ const VIDEOS = [
   },
   {
     id: '3',
-    url: '/video/3',
+    url: '/videos/3',
     title: 'The Hidden Secrets of Ancient Civilizations',
     image: '/placeholder.png',
     channel: 'History Enthusiasts',
@@ -38,7 +38,7 @@ const VIDEOS = [
   },
   {
     id: '4',
-    url: '/video/4',
+    url: '/videos/4',
     title: 'Cook With Me: 5 Easy Dinner Recipes Anyone Can Make',
     image: '/placeholder.png',
     channel: 'Chef Julia',
@@ -49,7 +49,7 @@ const VIDEOS = [
   },
   {
     id: '5',
-    url: '/video/5',
+    url: '/videos/5',
     title: 'Spring Web Development - Building a Full Stack App from Scratch',
     image: '/placeholder.png',
     channel: 'Tech Insights',
@@ -60,7 +60,7 @@ const VIDEOS = [
   },
   {
     id: '6',
-    url: '/video/6',
+    url: '/videos/6',
     title: 'Relaxing Piano Music for Work, Study and Focus',
     image: '/placeholder.png',
     channel: 'Peaceful Melodies',
@@ -71,7 +71,7 @@ const VIDEOS = [
   },
   {
     id: '7',
-    url: '/video/7',
+    url: '/videos/7',
     title: 'The Hidden Secrets of Ancient Civilizations',
     image: '/placeholder.png',
     channel: 'History Enthusiasts',
@@ -83,7 +83,7 @@ const VIDEOS = [
   },
   {
     id: '8',
-    url: '/video/8',
+    url: '/videos/8',
     title: 'The Hidden Secrets of Ancient Civilizations',
     image: '/placeholder.png',
     channel: 'History Enthusiasts',
@@ -95,7 +95,7 @@ const VIDEOS = [
   },
   {
     id: '9',
-    url: '/video/9',
+    url: '/videos/9',
     title: 'The Hidden Secrets of Ancient Civilizations',
     image: '/placeholder.png',
     channel: 'History Enthusiasts',
@@ -106,7 +106,7 @@ const VIDEOS = [
   },
   {
     id: '10',
-    url: '/video/10',
+    url: '/videos/10',
     title: 'The Hidden Secrets of Ancient Civilizations',
     image: '/placeholder.png',
     channel: 'History Enthusiasts',
