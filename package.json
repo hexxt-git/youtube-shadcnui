@@ -7,7 +7,8 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "format": "prettier --write --config .prettierrc ."
+    "format": "prettier --write --config .prettierrc .",
+    "addC": "shadcn@latest add "
   },
   "dependencies": {
     "@radix-ui/react-slot": "^1.2.2",
