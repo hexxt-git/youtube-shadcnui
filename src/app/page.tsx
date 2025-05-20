@@ -1,10 +1,18 @@
-import Image from 'next/image'
+import Categories from '@/components/features/home/categories'
+import Shorts from '@/components/features/home/shorts'
+import Videos from '@/components/features/home/videos'
 
 export default function Home() {
   return (
-    <div className="h-full flex flex-col items-center justify-center p-4 gap-4">
-      <Image src="/logo-dark.svg" alt="Youtube" width={350} height={350} className="hidden dark:block" />
-      <Image src="/logo.svg" alt="Youtube" width={350} height={350} className="block dark:hidden" />
-    </div>
+    <>
+      <Categories />
+      <Videos />
+      <hr className="border-1 mx-4 my-4" />
+      <Shorts />
+      <hr className="border-1 mx-4 my-4" />
+      <Videos />
+      <hr className="border-1 mx-4" />
+      <Shorts />
+    </>
   )
 }

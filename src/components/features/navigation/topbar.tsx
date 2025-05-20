@@ -8,7 +8,7 @@ import { useTheme } from 'next-themes'
 import { useCallback } from 'react'
 import Link from 'next/link'
 import { useContext } from 'react'
-import { SidebarContext } from '@/components/shared/sidebar-provider'
+import { SidebarContext } from '@/components/providers/sidebar-provider'
 
 export function Topbar() {
   const { resolvedTheme, setTheme } = useTheme()

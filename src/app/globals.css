@@ -53,6 +53,9 @@
   --radius-xl: calc(var(--radius) + 4px);
 
   --breakpoint-xs: 380px;
+
+  --container-8xl: 86rem;
+  --container-10xl: 106rem;
 }
 
 :root {
