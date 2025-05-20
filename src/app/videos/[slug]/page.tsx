@@ -10,7 +10,7 @@ import { cn } from '@/lib/utils'
 import { SidebarContext } from '@/components/providers/sidebar-provider'
 import { useContext } from 'react'
 
-export default function VideoPage({ params }: { params: { slug: string } }) {
+export default function VideoPage() {
   // In a real application, you would fetch the video data based on the slug
   // For now, we'll use static demo data
 
