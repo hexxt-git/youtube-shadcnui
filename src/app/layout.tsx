@@ -30,7 +30,7 @@ export default function RootLayout({
             <Topbar />
             <div className="grid grid-cols-[auto_1fr] min-h-screen pt-16">
               <Sidebar />
-              <main className="size-full overflow-x-hidden @container">{children}</main>
+              <main className="size-full overflow-x-hidden @container pb-12">{children}</main>
             </div>
           </SidebarProvider>
         </ThemeProvider>

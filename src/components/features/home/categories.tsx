@@ -53,7 +53,7 @@ export default function Categories() {
               className={cn('px-6 font-bold', category === 'All' && 'bg-foreground text-background')}
               asChild
             >
-              <Link href={`/categories/${category}`}>{category}</Link>
+              <Link href={`/?categories=${category}`}>{category}</Link>
             </Button>
           ))}
         </div>
