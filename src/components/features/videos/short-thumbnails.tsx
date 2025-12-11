@@ -13,7 +13,7 @@ export default function ShortVideoThumbnail({ thumbnail }: { thumbnail: ShortVid
     <Link href={thumbnail.url} className="flex-none w-[160px]">
       <div className="relative aspect-[9/16] rounded-xl overflow-hidden mb-2">
         <Image
-          src={thumbnail.image || '/placeholder.png'}
+          src={thumbnail.image || 'https://picsum.photos/seed/003/500/500'}
           alt={thumbnail.title}
           fill
           className="object-cover transition-all hover:scale-105"

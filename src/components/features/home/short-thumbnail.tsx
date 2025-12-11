@@ -13,7 +13,7 @@ export default function ShortThumbnail({ thumbnail }: { thumbnail: ShortThumbnai
     <Link href={thumbnail.url} className="group w-[260px] cursor-pointer">
       <div className="relative aspect-[9/16] rounded-xl overflow-hidden mb-2">
         <Image
-          src={thumbnail.image || '/placeholder.png'}
+          src={thumbnail.image || 'https://picsum.photos/seed/040/500/500'}
           alt={thumbnail.title}
           fill
           className="object-cover transition-all group-hover:scale-105"

@@ -65,7 +65,7 @@ export function Topbar() {
         </Button>
         <Button variant="ghost" size="icon">
           <Image
-            src="/placeholder.png"
+            src="https://picsum.photos/seed/006/500/500"
             alt="Jhon Doe"
             width={24}
             height={24}

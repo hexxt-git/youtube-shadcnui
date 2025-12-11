@@ -23,7 +23,7 @@ export function CommentInput() {
 
   return (
     <div className="flex gap-3 mb-6 w-full">
-      <Image src="/placeholder.png" alt="Channel avatar" width={40} height={40} className="rounded-full w-10 h-10" />
+      <Image src="https://picsum.photos/seed/004/500/500" alt="Channel avatar" width={40} height={40} className="rounded-full w-10 h-10" />
       <div className="flex-1">
         <Textarea placeholder="Add a comment..." value={comment} onChange={(e) => setComment(e.target.value)} />
         <div className="flex justify-end mt-2 gap-2">
@@ -51,7 +51,7 @@ export function CommentItem({ comment }: { comment: Comment }) {
   return (
     <div className="flex gap-3 mb-4">
       <Image
-        src={comment.user.image || '/placeholder.png'}
+        src={comment.user.image || 'https://picsum.photos/seed/005/500/500'}
         alt={comment.user.name}
         width={40}
         height={40}

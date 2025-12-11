@@ -18,7 +18,7 @@ export default function Thumbnail({ thumbnail }: { thumbnail: Thumbnail }) {
     <Link href={thumbnail.url} className="group w-full max-w-[420px] cursor-pointer">
       <div className="relative aspect-video rounded-xl overflow-hidden mb-2">
         <Image
-          src={thumbnail.image || '/placeholder.png'}
+          src={thumbnail.image || 'https://picsum.photos/seed/031/500/500'}
           alt={thumbnail.title}
           fill
           className="object-cover transition-all group-hover:scale-105"
@@ -36,7 +36,7 @@ export default function Thumbnail({ thumbnail }: { thumbnail: Thumbnail }) {
       <div className="flex gap-3">
         <div className="shrink-0">
           <Image
-            src={thumbnail.channelImage || '/placeholder.png'}
+            src={thumbnail.channelImage || 'https://picsum.photos/seed/032/500/500'}
             alt={thumbnail.channel}
             width={36}
             height={36}

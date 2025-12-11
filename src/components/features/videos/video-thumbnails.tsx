@@ -16,7 +16,7 @@ export default function VideoThumbnail({ thumbnail }: { thumbnail: VideoThumbnai
     <Link href={thumbnail.url} className="flex gap-2 mb-3 group">
       <div className="relative h-32 w-40 min-w-[220px] rounded-md overflow-hidden">
         <Image
-          src={thumbnail.image || '/placeholder.png'}
+          src={thumbnail.image || 'https://picsum.photos/seed/001/500/500'}
           alt={thumbnail.title}
           fill
           className="object-cover transition-all group-hover:scale-105"

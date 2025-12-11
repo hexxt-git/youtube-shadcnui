@@ -22,7 +22,7 @@ export default function VideoDetails({ video }: { video: VideoDetailsProps }) {
       <div className="flex items-center justify-between mt-4">
         <div className="flex items-center gap-2">
           <Image
-            src={video.channel.image || '/placeholder.png'}
+            src={video.channel.image || 'https://picsum.photos/seed/002/500/500'}
             alt={video.channel.name}
             width={48}
             height={48}

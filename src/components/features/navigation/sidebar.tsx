@@ -122,22 +122,22 @@ const subscriptionItems: SidebarItem[] = [
 const channelItems: ChannelItem[] = [
   {
     name: 'Jhon Doe',
-    image: '/placeholder.png',
+    image: 'https://picsum.photos/seed/007/500/500',
     isLive: true,
   },
   {
     name: 'Jhon Doe',
-    image: '/placeholder.png',
+    image: 'https://picsum.photos/seed/008/500/500',
     isLive: false,
   },
   {
     name: 'Jhon Doe',
-    image: '/placeholder.png',
+    image: 'https://picsum.photos/seed/009/500/500',
     isLive: true,
   },
   {
     name: 'Jhon Doe',
-    image: '/placeholder.png',
+    image: 'https://picsum.photos/seed/010/500/500',
     isLive: false,
   },
 ]
