@@ -16,7 +16,7 @@ export default function ShortVideoThumbnail({ thumbnail }: { thumbnail: ShortVid
           src={thumbnail.image || 'https://picsum.photos/seed/003/500/500'}
           alt={thumbnail.title}
           fill
-          className="object-cover transition-all hover:scale-105"
+          className="object-cover transition-all hover:scale-105 duration-300 ease-in-out"
         />
       </div>
 

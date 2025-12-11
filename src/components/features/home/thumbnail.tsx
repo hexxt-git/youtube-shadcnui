@@ -21,7 +21,7 @@ export default function Thumbnail({ thumbnail }: { thumbnail: Thumbnail }) {
           src={thumbnail.image || 'https://picsum.photos/seed/031/500/500'}
           alt={thumbnail.title}
           fill
-          className="object-cover transition-all group-hover:scale-105"
+          className="object-cover transition-all group-hover:scale-105 duration-300 ease-in-out"
         />
         <div className="absolute bottom-1 right-1 bg-black/80 text-white text-xs px-1 rounded">
           {thumbnail.duration}
